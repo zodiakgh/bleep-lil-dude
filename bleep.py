@@ -100,8 +100,7 @@ class Pet:
         self.say("hi. I live here now.", 3500)
         self.tick()
         r.mainloop()
-
-    # ------------------------------------------------------------ helpers
+  # ------------------------------------------------------------ helpers
     def say(self, text, ms=1500):
         self.say_text = text
         self.say_until = time.time() + ms / 1000
@@ -172,7 +171,7 @@ class Pet:
         tx, ty = cx, cy + 40
         dx, dy = tx - self.x, ty - self.y
         dist = math.hypot(cx - self.x, cy - self.y)
-        self.moving = False
+        self.moving = false
         if dist > 120 and not self.sleeping():
             sp = min((dist - 120) * 0.05 + 1.5, 10)
             n = math.hypot(dx, dy) or 1
