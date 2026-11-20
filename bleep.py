@@ -60,7 +60,7 @@ SHAPE = [
 
 QUOTES = [
     "boing!", "why did you do that", "I have no purpose", "this changes nothing",
-    "ow. jk.", "wheee", "404: brain not found", "pls hire me", "I'm legally a blob",
+    "ow. jk.", "wheee", "Zodiak on top", "404: brain not found", "pls hire me", "I'm legally a blob",
     "got any snacks?", "I'm doing my best", "again!", "is this a job?",
     "sudo make me a sandwich", "I live in your RAM now", "have you tried turning me off?",
     "I'm not lazy, I'm in power-saving mode", "stop clicking, I'm working",
